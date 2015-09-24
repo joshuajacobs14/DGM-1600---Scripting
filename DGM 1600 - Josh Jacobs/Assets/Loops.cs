@@ -4,23 +4,23 @@ using System.Collections;
 public class Loops : MonoBehaviour {
 
 	// number of red balloons for the 'for loop'
-	int numRedBalloons = 3;
+	public int numRedBalloons = 3;
 
 	// number of blue balloons for the 'while loop'
-	int blueBalloons = 4;
+	public int blueBalloons = 4;
 
 
 	// Use this for initialization
 	void Start () {
 
-		// for loop
+		// for loop - Create 3 Red Balloons
 		for(int i = 0; i < numRedBalloons; i++)
 		{
 			Debug.Log("Creating Red Balloon number: " + i);
 		}
 
 
-		// while loop
+		// while loop - Say "There is a balloon" four times
 		while(blueBalloons > 0)
 		{
 			Debug.Log ("There is a blue balloon");
@@ -28,7 +28,7 @@ public class Loops : MonoBehaviour {
 		}
 
 
-		// do while loop
+		// do while loop - print once: "Hello Yellow Balloon"
 		bool shouldContinue = false;
 		
 		do
@@ -38,7 +38,7 @@ public class Loops : MonoBehaviour {
 		}while(shouldContinue == true);
 
 
-		// foreach loop
+		// foreach loop - For each element, print the corresponding string
 		string[] balloons = new string[3];
 		
 		balloons[0] = "I'm a green balloon";
