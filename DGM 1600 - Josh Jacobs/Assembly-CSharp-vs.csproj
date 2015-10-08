@@ -49,6 +49,8 @@
      <Compile Include="Assets\ConventionsAndSyntax.cs" />
      <Compile Include="Assets\IfStatements.cs" />
      <Compile Include="Assets\Loops.cs" />
+     <Compile Include="Assets\ScopeAndAccessModifiers.cs" />
+     <Compile Include="Assets\SecondScript.cs" />
      <Compile Include="Assets\VariableandFunctions.cs" />
      <Compile Include="Assets\conventionsandsyntaxpassoff.cs" />
  <Reference Include="UnityEngine.UI">
