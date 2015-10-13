@@ -46,7 +46,10 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\ClassesScript1.cs" />
+     <Compile Include="Assets\ClassesScript2.cs" />
      <Compile Include="Assets\ConventionsAndSyntax.cs" />
+     <Compile Include="Assets\DataTypeScript.cs" />
      <Compile Include="Assets\IfStatements.cs" />
      <Compile Include="Assets\Loops.cs" />
      <Compile Include="Assets\ScopeAndAccessModifiers.cs" />
